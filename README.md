@@ -26,7 +26,7 @@ Meet Vern.
 
 ## Music
 
-- File: `musicita`
+- Put the music in a folder: `musicita`
 - Ensure it's in the correct folder.
 - Music plays automatically to enhance the atmosphere.
 
