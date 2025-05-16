@@ -1835,7 +1835,7 @@ def start():
     if os.path.exists("savefile.txt"):
         with open("savefile.txt", "r") as file:
             saved_ending = file.read().strip()
-        pygame.mixer.music.load("musicita/An empty bliss beyond this World - The Caretaker (Stage 3) [TubeRipper.com].mp3")
+        pygame.mixer.music.load("musicita/An empty bliss beyond this World - The Caretaker (Stage 3).mp3")
         pygame.mixer.music.play(-1)  # -1 for infinite loop
         if saved_ending == "assimilation":
             type_text(">> You're back. We collided, remember?\n"
