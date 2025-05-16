@@ -1609,7 +1609,7 @@ def question5():
     type_text(">> And you're not taking a test anymore.\n", 0.25)
     time.sleep(0.5)
     pygame.mixer.music.fadeout(2000)
-    pygame.mixer.music.load("musicita/A4 - Childishly fresh eyes [TubeRipper.com].mp3")
+    pygame.mixer.music.load("musicita/A4 - Childishly fresh eyes.mp3")
     pygame.mixer.music.play(-1)
     pygame.mixer.music.set_volume(0.5)
     print()
