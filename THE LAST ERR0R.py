@@ -859,7 +859,7 @@ def question13():
     ans15 = input("> ").lower()
     print()
     if ans15 == "yes" or ans15 == "y" or ans15 == "i do" or ans15 == "ofc" or ans15 == "always":
-        type_text("I knew ", 0.1)
+        type_text(">> I knew ", 0.1)
         time.sleep(0.2)
         type_text("you ", 0.1)
         time.sleep(0.15)
@@ -868,21 +868,21 @@ def question13():
         time.sleep(0.5)
         print()
     elif ans15 == "no" or ans15 == "nope" or ans15 == "i dont" or ans15 == "never" or ans15 == "n":
-        type_text("You did, ", 0.1)
+        type_text(">> You did, ", 0.1)
         time.sleep(0.05)
         type_text("a moment ago.\n", 0.13)
         defiant += 1
         time.sleep(0.5)
         print()
     elif ans15 == "maybe" or ans15 == "idk" or ans15 == "i dont know" or ans15 == "not sure" or ans15 == "im not sure" or ans15 == "kinda":
-        type_text("I don't deal in ", 0.075)
+        type_text(">> I don't deal in ", 0.075)
         time.sleep(0.15)
         type_text("'%s'.\n" %(ans15), 0.1)
         irresolute += 1
         time.sleep(0.5)
         print()
     else:
-        type_text("That wasn't ", 0.1)
+        type_text(">> That wasn't ", 0.1)
         time.sleep(0.15)
         type_text("an answer.\n", 0.11)
         curious += 1
@@ -1053,7 +1053,7 @@ def question12():
                   "I saw her code execute before power-on. She's already awake when we arrive.\n",0.15)
     else:
         time.sleep(5)
-        type_text("> [ERR0R 404: '%s' not found in database.]\n" %(ans12), 0.15)
+        type_text("> [ERR0R 404: '%s' not found in database]\n" %(ans12), 0.15)
     time.sleep(5)
     print()
     time.sleep(5)
